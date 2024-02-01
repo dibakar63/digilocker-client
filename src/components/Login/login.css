@@ -1,0 +1,39 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+   
+}
+.loginDiv{display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    top:30%;
+    gap:20px;
+    height: 350px;
+    border-radius: 15px;
+    border-bottom: 3px solid rgb(10, 10, 231);
+    box-shadow: -6px 20px 58px 0px rgba(0,0,0,0.72);
+-webkit-box-shadow: -6px 20px 58px 0px rgba(0,0,0,0.72);
+-moz-box-shadow: -6px 20px 58px 0px rgba(0,0,0,0.72);
+flex-direction: column;}
+.loginDiv input{
+    width: 300px;
+    height: 43px;
+    border-radius: 15px;
+    color: black;
+    border: 0.5px solid black;
+    
+}
+.loginDiv button{
+    width: 300px;
+    height: 49px;
+    border-radius: 15px;
+    background-color: rgb(41, 227, 41);
+    color: white;
+    
+}
